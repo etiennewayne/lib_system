@@ -1,0 +1,104 @@
+::v-deep .v-application--wrap {
+    min-height: fit-content;
+  }
+
+  .form-registration{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .register-body{
+    opacity: .9;
+    animation-name: to-left;
+    animation-duration: 1s;
+  }
+
+  .card-header{
+    padding: 15px;
+    margin: 15px 0;
+  }
+  .font-top{
+    font-family: monospace;
+    font-size: .8em;
+  }
+  .card-section-text{
+    text-align: center;
+    font-size: 1em;
+    font-family: monospace;
+  }
+
+  .button-term{
+    cursor: pointer;
+    font-family: monospace;
+    font-size: .9em;
+    padding: 5px;
+    text-align: center;
+  }
+  .margin-left{
+    margin: 50px;
+  }
+  .text-info{
+    margin: 15px 0;
+  }
+
+  .overflowing{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .icons{
+    font-size: 25px;
+  }
+
+
+label{
+    font-size: 12px;
+}
+b{
+    font-size: 15px;
+}
+.centers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+  transition: .5s linear;
+}
+
+.input:focus {
+  color: #1d1d1d;
+  box-shadow: 4px 4px 10px #070707;
+}
+
+.input:focus::placeholder {
+  color: #fa4753;
+}
+
+.c-error{
+    font-weight: bold;
+    font-size: .7em;
+    color: rgb(204, 207, 13);
+}
+.skip{
+    font-size: 10px;
+    text-align: center;
+    
+}
+.v-text-field, ::v-deep label {
+  font-size: 0.8em;
+  font-family: monospace;
+}
+
+.card-size{
+  width: 70%;
+  min-height: 750px;
+}
+.marginNeg{
+  margin-top: -30px;
+}
+@media only screen and (max-width: 750px){
+  .card-size{
+    width: 90%;
+  }
+
+}
